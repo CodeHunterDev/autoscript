@@ -108,8 +108,8 @@ sleep 1
 echo -e "[ ${green}INFO${NC} ] Creating service... "
 sleep 1
 echo -e "[ ${green}INFO${NC} ] Downloading files... "
-wget -q -O /usr/bin/backup "https://raw.githubusercontent.com/wingsofhope123/agoez09/main/backup/backup.sh" && chmod +x /usr/bin/backup
-wget -q -O /usr/bin/restore "https://raw.githubusercontent.com/wingsofhope123/agoez09/main/backup/restore.sh" && chmod +x /usr/bin/restore
+wget -q -O /usr/bin/backup "https://raw.githubusercontent.com/ndmservis/autoscript/main/backup/backup.sh" && chmod +x /usr/bin/backup
+wget -q -O /usr/bin/restore "https://raw.githubusercontent.com/ndmservis/autoscript/main/backup/restore.sh" && chmod +x /usr/bin/restore
 
 service cron restart > /dev/null 2>&1
 
