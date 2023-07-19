@@ -1,5 +1,5 @@
 #!/bin/bash
-#Script By Wings
+#Script By NDM
 
 BIBlack='\033[1;90m'      # Black
 BIRed='\033[1;91m'        # Red
