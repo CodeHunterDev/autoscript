@@ -1,5 +1,5 @@
 #!/bin/bash
-#Script By Wings Premium VPN
+#Script By NDM Premium VPN
 
 BIBlack='\033[1;90m'      # Black
 BIRed='\033[1;91m'        # Red
@@ -69,7 +69,7 @@ echo -e "\033[1;93m  >Port Trojan GRPC         :443\e[0m"
 echo -e "\033[1;93m  >Port ShadowSocks WS      :443\e[0m"
 echo -e "\033[1;93m  >Port ShadowSocks GRPC    :443\e[0m"
 echo -e ""
-echo -e "\033[1;97mOrder AutoScript Lifetime wa.me/6282261333421\e[0m"
+echo -e "\033[1;97mOrder AutoScript Lifetime wa.me/6281218539445\e[0m"
 echo -e ""
 echo -e ""
 read -n 1 -s -r -p "  Press any key to back on menu"
