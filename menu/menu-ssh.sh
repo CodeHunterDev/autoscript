@@ -1,5 +1,5 @@
 #!/bin/bash
-#Script By WingsOfHope
+#Script By NDMservice
 
 BIBlack='\033[1;90m'      # Black
 BIRed='\033[1;91m'        # Red
@@ -170,7 +170,7 @@ echo -e "UDPGW      : 7100-7300"
 echo -e "${BIBlue}════════════════════════════════════${NC}"
 echo -e "GET / HTTP/1.1[crlf]Host: $domen[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: ws[crlf][crlf]"
 echo -e "${BIBlue}════════════════════════════════════${NC}"
-echo -e "${BICyan} NDM Premium Auto Script Service${NC}"
+echo -e "${BICyan}NDM Premium Auto Script Service${NC}"
 fi
 echo ""
 read -n 1 -s -r -p "   Press any key to back on menu"
