@@ -56,7 +56,7 @@ rm -rf /root/backup
 rm -r /root/$IP-$date.zip
 clear
 echo -e "
-Detail Backup WINGS AutoScript
+Detail Backup NDM AutoScript
 ==================================
 IP VPS        : $IP
 Link Backup   : $link
