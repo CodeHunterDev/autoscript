@@ -2,8 +2,8 @@
 # =========================================
 # Quick Setup | Script Setup Manager
 # Edition : Stable Edition V1.0
-# Auther  : Wings Premium VPN
-# (C) Copyright 2022
+# Auther  : NDM Premium VPN
+# (C) Copyright 2023
 # =========================================
 # // Export Color & Information
 export RED='\033[0;31m'
