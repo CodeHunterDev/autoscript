@@ -45,7 +45,7 @@ url=$(rclone link dr:backup/$IP-$date.zip)
 id=(`echo $url | grep '^https' | cut -d'=' -f2`)
 link="https://drive.google.com/u/4/uc?id=${id}&export=download"
 echo -e "
-Detail Backup WINGS AutoScript
+Detail Backup NDM AutoScript
 ==================================
 IP VPS        : $IP
 Link Backup   : $link
