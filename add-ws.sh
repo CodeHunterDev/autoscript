@@ -1,5 +1,5 @@
 #!/bin/bash
-#Script By NDM
+#Script By KERE PREMIUM VPN
 
 BIBlack='\033[1;90m'      # Black
 BIRed='\033[1;91m'        # Red
@@ -216,7 +216,7 @@ echo -e "${BIBlue}════════════════════�
 echo -e "Link GRPC : "
 echo -e "${vmesslink3}"
 echo -e "${BIBlue}════════════════════════════════${NC}" 
-echo -e "${BICyan} NDM Premium VPN Auto Script Service${NC}" 
+echo -e "${BICyan} KERE Premium VPN Auto Script Service${NC}" 
 echo "" | tee -a /etc/log-create-user.log
 rm /etc/xray/$user-tls.json > /dev/null 2>&1
 rm /etc/xray/$user-none.json > /dev/null 2>&1
