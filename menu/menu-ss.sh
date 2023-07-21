@@ -169,7 +169,7 @@ echo -e "$BICyan═════════════════════�
 echo -e "Link GRPC : "
 echo -e "${shadowsockslink1}"  
 echo -e "$BICyan════════════════════════════════════${NC} "
-echo -e "$BICyan NDM Premium Auto Script Service${NC}" 
+echo -e "$BICyan vPro Premium Auto Script Service${NC}" 
 echo ""  
 read -n 1 -s -r -p "   Press any key to back on menu"
 menu-ss
