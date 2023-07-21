@@ -221,7 +221,7 @@ echo -e "\033[0;34m════════════════════�
 echo -e "Link GRPC : "
 echo -e "${vmesslink3}"
 echo -e "\033[0;34m════════════════════════════════════${NC}" 
-echo -e "\033[0;34m NDM Premium VPN Auto Script Service${NC}"  
+echo -e "\033[0;34m vPro Premium VPN Auto Script Service${NC}"  
 echo -e ""
 read -n 1 -s -r -p "Press any key to back on menu"
 menu-vmess
