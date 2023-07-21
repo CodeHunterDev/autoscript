@@ -1,5 +1,5 @@
 #!/bin/bash
-#Script By NDM Premium VPN
+#Script By vPro Premium VPN
 
 BIBlack='\033[1;90m'      # Black
 BIRed='\033[1;91m'        # Red
