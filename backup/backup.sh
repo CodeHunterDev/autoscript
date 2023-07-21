@@ -20,7 +20,7 @@ email=$(cat /home/email)
 if [[ "$email" = "" ]]; then
 echo "Masukkan Email Untuk Menerima Backup"
 read -rp "Email : " -e email
-cat << EOF >> /home/email
+cat <<EOF>> /home/email
 $email
 EOF
 fi
