@@ -176,23 +176,23 @@ CITY=$(curl -s ipinfo.io/city)
 IPVPS=$(curl -s ipinfo.io/ip)
 UDPX="https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1S3IE25v_fyUfCLslnujFBSBMNunDHDk2' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1S3IE25v_fyUfCLslnujFBSBMNunDHDk2"
 clear
-echo -e "${PURPLE} ┌─────────────────────────────────────────────────────┐${NC}"
-echo -e "${PURPLE} │  ${BICyan}  Use Core       : ${BIGreen}vPro Premium Tunneling ${NC}" 
-echo -e " ${PURPLE}│  ${BICyan}  OS VPS         : "`hostnamectl | grep "Operating System" | cut -d ' ' -f5-` $NC
-echo -e " ${PURPLE}│  ${BICyan}  Current Domain : ${BIGreen}$(cat /etc/xray/domain)${NC}"
-echo -e " ${PURPLE}│  ${BICyan}  SLOWDNS Domain : ${BIGreen}$(cat /root/nsdomain)${NC}"
-echo -e " ${PURPLE}│  ${BICyan}  IP-VPS         : ${BIGreen}$IPVPS${NC}"
-echo -e " ${PURPLE}│  ${BICyan}  ISP-Name       : ${BIGreen}$ISP${NC}"
-echo -e " ${PURPLE}│  ${BIYellow}  DATE&TIME      : $( date -d "0 days" +"%d-%m-%Y | %X" ) ${NC}"
-echo -e " ${PURPLE}└─────────────────────────────────────────────────────┘${NC}"
-echo -e "${PURPLE} ┌─────────────────────────────────────────────────────┐${NC}" 
-echo -e "${PURPLE} │ \033[0m ${BOLD}${PURPLE}     SSH      VMESS       VLESS      TROJAN $NC" 
-echo -e "${PURPLE} │ \033[0m ${Blue}      $ssh1         $vma           $vla           $tra $NC" 
-echo -e "${PURPLE} └─────────────────────────────────────────────────────┘${NC}" 
+echo -e "${BIRed} ┌─────────────────────────────────────────────────────┐${NC}"
+echo -e "${BIRed} │  ${BICyan}  Use Core       : ${BIGreen}vPro Premium Tunneling ${NC}" 
+echo -e " ${BIRed}│  ${BICyan}  OS VPS         : "`hostnamectl | grep "Operating System" | cut -d ' ' -f5-` $NC
+echo -e " ${BIRed}│  ${BICyan}  Current Domain : ${BIGreen}$(cat /etc/xray/domain)${NC}"
+echo -e " ${BIRed}│  ${BICyan}  SLOWDNS Domain : ${BIGreen}$(cat /root/nsdomain)${NC}"
+echo -e " ${BIRed}│  ${BICyan}  IP-VPS         : ${BIGreen}$IPVPS${NC}"
+echo -e " ${BIRed}│  ${BICyan}  ISP-Name       : ${BIGreen}$ISP${NC}"
+echo -e " ${BIRed}│  ${BIYellow}  DATE&TIME      : $( date -d "0 days" +"%d-%m-%Y | %X" ) ${NC}"
+echo -e " ${BIRed}└─────────────────────────────────────────────────────┘${NC}"
+echo -e "${BIRed} ┌─────────────────────────────────────────────────────┐${NC}" 
+echo -e "${BIRed} │ \033[0m ${BOLD}${PURPLE}     SSH      VMESS       VLESS      TROJAN $NC" 
+echo -e "${BIRed} │ \033[0m ${Blue}      $ssh1         $vma           $vla           $tra $NC" 
+echo -e "${BIRed} └─────────────────────────────────────────────────────┘${NC}" 
 
 echo -e " ${BIPurple}    SSH ${NC}: $ressh"" ${BIPurple} NGINX ${NC}: $resngx"" ${BIPurple}  XRAY ${NC}: $resv2r"" ${BIPurple} TROJAN ${NC}: $resv2r"
 echo -e " ${BIPurple}            DROPBEAR ${NC}: $resdbr" "${BIPurple} SSH-WS ${NC}: $ressshws"
-echo -e "${PURPLE} ┌─────────────────────────────────────────────────────┐${NC}"
+echo -e "${BIRed} ┌─────────────────────────────────────────────────────┐${NC}"
 echo -e "  ${PURPLE}  [${BIGreen}1${PURPLE}]${GREEN} SSH/UDP/SlowDNS ${NC}" 
 echo -e "  ${PURPLE}  [${BIGreen}2${PURPLE}]${GREEN} VMESS ${NC}"    
 echo -e "  ${PURPLE}  [${BIGreen}3${PURPLE}]${GREEN} VLESS ${NC}"    
@@ -204,10 +204,10 @@ echo -e "  ${PURPLE}  [${BIGreen}8${PURPLE}]${GREEN} INFO SCRIPT ${NC}"
 echo -e "  ${PURPLE}  [${BIGreen}9${PURPLE}]${GREEN} INFO SERVER ${NC}"    
 echo -e "  ${PURPLE}  [${BIGreen}10${PURPLE}]${GREEN}INSTAL UDP ${NC}" 
 echo -e "  ${PURPLE}  [${BIGreen}x${PURPLE}]${GREEN} EXIT ${NC}"  
-echo -e "${PURPLE} └─────────────────────────────────────────────────────┘${NC}"
- echo -e "${PURPLE} ┌─────────────────────────────────────────────────────┐${NC}" 
- echo -e "${PURPLE} │  ${BIGreen}     HARI ini${NC}: ${red}$ttoday$NC ${BIGreen}KEMARIN${NC}: ${red}$tyest$NC ${BIGreen}BULAN${NC}: ${red}$tmon$NC $NC" 
- echo -e "${PURPLE} └─────────────────────────────────────────────────────┘${NC}"
+echo -e "${BIRed} └─────────────────────────────────────────────────────┘${NC}"
+ echo -e "${BIRed} ┌─────────────────────────────────────────────────────┐${NC}" 
+ echo -e "${BIRed} │  ${BIGreen}     HARI ini${NC}: ${red}$ttoday$NC ${BIGreen}KEMARIN${NC}: ${red}$tyest$NC ${BIGreen}BULAN${NC}: ${red}$tmon$NC $NC" 
+ echo -e "${BIRed} └─────────────────────────────────────────────────────┘${NC}"
 DATE=$(date +'%d %B %Y')
 datediff() {
     d1=$(date -d "$1" +%s)
@@ -215,16 +215,16 @@ datediff() {
    echo -e " ${PURPLE}│$NC  Expiry In     : $(( (d1 - d2) / 86400 )) Days $NC"
 }
 mai="datediff "$Exp" "$DATE""
-echo -e " ${PURPLE}┌─────────────────────────────────────────────────────┐${NC}"
-echo -e " ${PURPLE}│  Version       : $(cat /opt/.ver) Last Update ${NC}"
-echo -e " ${PURPLE}│  User          :\033[1;36m $Name \e[0m"
+echo -e " ${BIRed}┌─────────────────────────────────────────────────────┐${NC}"
+echo -e " ${BIRed}│  Version       : $(cat /opt/.ver) Last Update ${NC}"
+echo -e " ${BIRed}│  User          :\033[1;36m $Name \e[0m"
 if [ $exp \< 1000 ];
 then
-echo -e " ${PURPLE}│$NC License     :${PURPLE}$sisa_hari$NC Days Tersisa $NC"
+echo -e " ${BIRed}│$NC License     :${PURPLE}$sisa_hari$NC Days Tersisa $NC"
 else
     datediff "$Exp" "$DATE"
 fi;
-echo -e " ${PURPLE}└─────────────────────────────────────────────────────┘${NC}"
+echo -e " ${BIRed}└─────────────────────────────────────────────────────┘${NC}"
 echo
 read -p " Select menu : " opt
 echo -e ""
