@@ -2,7 +2,7 @@
 # =========================================
 # Quick Setup | Script Setup Manager
 # Edition : Stable Edition V1.0
-# Author  : KERE Premium VPN
+# Author  : vPro Premium VPN
 # (C) Copyright 2023
 # =========================================
 
@@ -167,7 +167,7 @@ chmod +x /usr/local/bin/ws-stunnel
 # Installing Service Ovpn Websocket
 cat > /etc/systemd/system/ws-stunnel.service << END
 [Unit]
-Description=Ovpn Websocket Kere Premium VPN
+Description=Ovpn Websocket vPro Premium VPN
 Documentation=https://arzvpnstore.biz.id
 After=network.target nss-lookup.target
 [Service]
