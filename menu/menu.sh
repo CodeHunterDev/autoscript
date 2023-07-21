@@ -183,7 +183,7 @@ echo -e " ${PURPLE}│  ${BICyan}  Current Domain : ${BIGreen}$(cat /etc/xray/do
 echo -e " ${PURPLE}│  ${BICyan}  SLOWDNS Domain : ${BIGreen}$(cat /root/nsdomain)${NC}"
 echo -e " ${PURPLE}│  ${BICyan}  IP-VPS         : ${BIGreen}$IPVPS${NC}"
 echo -e " ${PURPLE}│  ${BICyan}  ISP-Name       : ${BIGreen}$ISP${NC}"
-echo -e " ${PURPLE}│  ${BIGreen}  DATE&TIME      : $( date -d "0 days" +"%d-%m-%Y | %X" ) ${NC}"
+echo -e " ${PURPLE}│  ${BIYellow}  DATE&TIME      : $( date -d "0 days" +"%d-%m-%Y | %X" ) ${NC}"
 echo -e " ${PURPLE}└─────────────────────────────────────────────────────┘${NC}"
 echo -e "${PURPLE} ┌─────────────────────────────────────────────────────┐${NC}" 
 echo -e "${PURPLE} │ \033[0m ${BOLD}${PURPLE}     SSH      VMESS       VLESS      TROJAN $NC" 
