@@ -2,7 +2,7 @@
 # =========================================
 # Quick Setup | Script Setup Manager
 # Edition : Stable Edition V1.0
-# Auther  : kere Premium VPN
+# Auther  : vPro Premium VPN
 # (C) Copyright 2023
 # =========================================
 # // Export Color & Information
