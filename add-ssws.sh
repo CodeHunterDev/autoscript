@@ -1,5 +1,5 @@
 #!/bin/bash
-#Script KERE Premium VPN
+#Script vPro Premium VPN
 
 BIBlack='\033[1;90m'      # Black
 BIRed='\033[1;91m'        # Red
@@ -394,7 +394,7 @@ echo -e "${BIBlue}════════════════════�
 echo -e "Link GRPC : "
 echo -e "${shadowsockslink1}"  
 echo -e "${BIBlue}══════════════════════════════════${NC} "
-echo -e "${BICyan} KERE Premium VPN Auto Script Service${NC}" 
+echo -e "${BICyan} vPro Premium VPN Auto Script Service${NC}" 
 echo ""  
 read -n 1 -s -r -p "Press any key to back on menu"
 
